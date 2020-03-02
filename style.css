@@ -192,7 +192,7 @@ HOME PAGE
 .parallax {
   /* The image used */
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2))), url(img/2.jpg);
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(img/2.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://res.cloudinary.com/djfz8onqu/image/upload/v1583147804/Lambing%20Live/background.png);
   width: 100%;
   /* Full height */
   height: 80vh;
@@ -251,7 +251,7 @@ HOME PAGE
 .home-latest-img {
   /* The image used */
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), url(img/8.png);
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(img/8.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://res.cloudinary.com/djfz8onqu/image/upload/v1583159452/Lambing%20Live/8_hastjh.png);
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   /* Full height */
@@ -453,7 +453,7 @@ HOME PAGE
 .home-track-img {
   /* The image used */
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), url(img/lambs.png);
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(img/lambs.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://res.cloudinary.com/djfz8onqu/image/upload/v1583159453/Lambing%20Live/lambs_bdlnjw.png);
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
   /* Full height */
