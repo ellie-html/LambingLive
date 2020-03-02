@@ -191,7 +191,7 @@ HOME PAGE
 /* home-hero  */
 .parallax {
   /* The image used */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2))), url(img/2.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2))), url(https://res.cloudinary.com/djfz8onqu/image/upload/v1583147804/Lambing%20Live/background.png);
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(https://res.cloudinary.com/djfz8onqu/image/upload/v1583147804/Lambing%20Live/background.png);
   width: 100%;
   /* Full height */
