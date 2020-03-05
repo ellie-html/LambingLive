@@ -19,7 +19,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
           <a href="index.html">Home</a>
-          <a href="latest">Latest News</a>
+          <a href="latest.html">Latest News</a>
           <a href="meet.html">Meet the Ewes</a>
           <a href="lamble.html">Lamble's Story</a>
         </div>
@@ -151,12 +151,34 @@
     <P>
     
       Dorothy has the shortest legs you ever did see but that makes her super cute. She will waddle over to you just to say hi. An sweet girl with a kind heart.
+     
     </P>
+       <!-- Trigger/Open The Modal -->
+<button class="button pulse" id="myBtn">VIEW LAMBS</button>
+
+<!-- The Modal -->
+<section id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <section class="modal-content">
+    <span class="close">&times;</span>
+   <img  src="https://res.cloudinary.com/djfz8onqu/image/upload/v1583420881/Lambing%20Live/lambb_ozjgf1.jpg">
+  
+
+   Dorothy lambed on 5th March - two gorgeous twins!
+
+
+</section>
+
+    
     </div>
     
     
     <div class="meet-img">
     <img src="https://res.cloudinary.com/djfz8onqu/image/upload/v1583152691/Lambing%20Live/dororthy_l3qugk.jpg">
+
+
+    
     
     </div>
     
@@ -208,7 +230,7 @@
   <h2> lamble </h2>
 
 <P>
-Technically not an ewe but still part of the squad. She was last years' orphan lamb. I claimed her and now she is my big baby. Loves humans, fuss, cuddles and food!! Click <a href="lamble.html"> here</a> to watch her grow up.
+Technically not an ewe but still part of the squad. She was last years' orphan lamb. I claimed her and now she is my big baby. Loves humans, fuss, cuddles and food!! Click <a style="color:#FF8EB8" href="lamble.html"> here</a> to watch her grow up.
 </P>
 </div>
 
@@ -224,12 +246,12 @@ Technically not an ewe but still part of the squad. She was last years' orphan l
 
 
 
-    <footer>
+
+  <footer>
 
     <a href="meet.html"> Back to Top</a>
+    <div style="float:right">   Designed and created by Ellie Baker  </div>
   </footer>
-  
-
   
     
       <script>
@@ -243,7 +265,36 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
 
-       
+
+
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
       </script>
 
 </body>

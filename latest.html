@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -56,6 +57,80 @@
 
   <div class="flex-container meet-sheep">
     <div class="meet-img">
+        <img src="https://res.cloudinary.com/djfz8onqu/image/upload/v1583420881/Lambing%20Live/lambb_ozjgf1.jpg">
+        
+        </div>
+
+    <div class="meet-name" >
+       
+      
+      <h2> 3 mar </h2>
+    
+    
+        <P>
+        1 ewe gives birth
+        <br>
+          2 lambs born
+          <br>
+         1 sets of twins
+        
+        </P>
+           <!-- Trigger/Open The Modal -->
+<button class="button pulse" id="myBtn">VIEW VIDEO</button>
+
+<!-- The Modal -->
+<section id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <section class="modal-content">
+    <span class="close">&times;</span>
+    <video width="25%"  controls>
+      <source src="https://res.cloudinary.com/djfz8onqu/video/upload/v1583424690/Lambing%20Live/LAMBS_rbync0.mov" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
+    
+
+   
+
+
+</section>
+        
+        <i style="font-size:40px" class="fa heart">&#xf004;</i>
+    </div>
+    
+    
+    
+    
+    <div class="meet-img" >
+        <img src="https://res.cloudinary.com/djfz8onqu/image/upload/v1583420879/Lambing%20Live/lambbb_vcusm9.jpg">
+        
+        </div>
+
+<div class="meet-name" >
+  <h2> 2 mar </h2>
+
+  <P>
+    3 ewes give birth
+    <br>
+      6 lambs born
+      <br>
+     3 sets of twins
+    </P>
+    
+<i style="font-size:40px" class="fa heart">&#xf004;</i>
+</div>
+
+
+
+
+
+  </div>
+
+
+
+  <div class="flex-container meet-sheep">
+    <div class="meet-img">
         <img src="https://res.cloudinary.com/djfz8onqu/image/upload/v1583171049/Lambing%20Live/news_j2txva.jpg">
         
         </div>
@@ -63,7 +138,7 @@
     <div class="meet-name" >
        
       
-      <h2> 1 Mar </h2>
+      <h2> 1 mar </h2>
     
     
         <P>
@@ -73,6 +148,8 @@
           <br>
          1 set of twins
         </P>
+        
+<i style="font-size:40px" class="fa heart">&#xf004;</i>
     </div>
     
     
@@ -93,6 +170,8 @@
   <br>
  1 set of twins 
 </P>
+
+<i style="font-size:40px" class="fa heart">&#xf004;</i>
 </div>
 
 
@@ -125,6 +204,7 @@
         <br>
           2 sets of twins!
         </P>
+        <i style="font-size:40px" class="fa heart">&#xf004;</i>
     </div>
     
     
@@ -145,6 +225,7 @@
   <br>
   1 boy and 1 girl
 </P>
+<i style="font-size:40px" class="fa heart">&#xf004;</i>
 </div>
 
 
@@ -160,6 +241,7 @@
   <footer>
 
     <a href="latest.html"> Back to Top</a>
+   <div style="float:right">   Designed and created by Ellie Baker  </div>
   </footer>
 
 
@@ -174,6 +256,35 @@ function openNav() {
 /* Close when someone clicks on the "x" symbol inside the overlay */
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
+}
+
+
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
 
       </script>
