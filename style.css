@@ -516,37 +516,37 @@ HOME PAGE
   border-radius: 30px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.05)));
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
-  -webkit-transition: 0.4s linear;
-  transition: 0.4s linear;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
   -webkit-transition-property: width, background-color;
   transition-property: width, background-color;
 }
 
 .progress-moved .progress-bar2 {
-  width: 20%;
+  width: 50%;
   background-color: #EF476F;
-  -webkit-animation: progressAnimation 6s;
-          animation: progressAnimation 6s;
+  -webkit-animation: progressAnimation 3s;
+          animation: progressAnimation 3s;
 }
 
 @-webkit-keyframes progressAnimation {
   0% {
-    width: 2%;
+    width: 25%;
     background-color: #F9BCCA;
   }
   100% {
-    width: 3%;
+    width: 25%;
     background-color: #EF476F;
   }
 }
 
 @keyframes progressAnimation {
   0% {
-    width: 2%;
+    width: 25%;
     background-color: #F9BCCA;
   }
   100% {
-    width: 3%;
+    width: 25%;
     background-color: #EF476F;
   }
 }
